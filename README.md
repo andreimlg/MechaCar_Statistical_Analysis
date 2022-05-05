@@ -13,7 +13,8 @@ Vehicle length and ground clearance are statistically unlikely to provide random
 
 As seen in the module the job of a linear regression analysis is to calculate the slope and y intercept values that minimize the overall distance between each data point from the linear model. 
 
-The r-squared value of 0.71 confirms that the slope is not 0 so the linear model predicts well the behavior of mpg values. As well as having a low p-value (<0.05)
+
+We can confirm by our p-value that slope is not 0. (p=5.35e-11 < 0.05) and we can say by out r-squared value of 0.71 that the linear model predicts well the behavior of mpg values.
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
@@ -49,6 +50,11 @@ Once the analysis is held by lot we can conclude that lots 1 and 2 are statiscal
 Here's a graphical description.
 
 ![boxplot](https://user-images.githubusercontent.com/31755703/166868476-4ac14d00-46c5-4738-9023-3ddf52449927.PNG)
+
+And the results
+
+![againstpop](https://user-images.githubusercontent.com/31755703/167026824-f1e8929f-c781-4543-b824-90361d2f0f78.PNG)
+![eachlotagainstpop](https://user-images.githubusercontent.com/31755703/167026843-83dd5b82-556e-41c5-a3ce-dd515e63f794.PNG)
 
 
 ## Study Design: MechaCar vs Competition
